@@ -3,7 +3,7 @@ criar um vetor A com 8 elementos INTEIROS.criar vetor b de msm tipo e tamanho
 do a multiplicaods por 2 b[i]=a[i]*2.
  */
 
-package com.mycompany.exerciciovetores2;
+package vetores;
 
 import java.util.Scanner;
 
