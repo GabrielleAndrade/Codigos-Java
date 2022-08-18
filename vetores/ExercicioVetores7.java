@@ -16,11 +16,11 @@ public class ExercicioVetores7 {
         int[] c = new int[3];
         
         for(int i=0;i<a.length;i++){
-            System.out.println("Digite os valores do índice A: ");
+            System.out.println("Digite os valores do índice A: "+i);
         a[i]=s.nextInt();
         }
         for(int i=0;i<b.length;i++){
-            System.out.println("Agora digite os valores do índice B: ");
+            System.out.println("Agora digite os valores do índice B: "+i);
         b[i]=s.nextInt();
         c[i]=a[i]-b[i];
         }
