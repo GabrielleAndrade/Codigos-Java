@@ -22,19 +22,24 @@ public class ExercicioVetores18 {
         for(int i=0;i<a.length;i++){
             System.out.print(a[i]+" ");
         }
+        int indiceMaior=0;
         int maiorIdade=0;
         for(int i=0;i<a.length;i++){
         if(a[i]>maiorIdade){
-        maiorIdade=a[i];    
+        maiorIdade=a[i]; 
+        indiceMaior=i;
         }
-}       int menorIdade=a[0];
+        
+}       int indiceMenor=0;
+        int menorIdade=a[0];
         for(int i=0;i<a.length;i++){
         if(a[i]<menorIdade){
-        menorIdade=a[i];    
+        menorIdade=a[i]; 
+        indiceMenor=i;
         }    
         }
-        System.out.println("Maior idade no indice: "+maiorIdade);
-        System.out.println("Menor idade no indice: "+menorIdade);
+        System.out.println("Maior idade no indice: "+indiceMaior+" é de "+maiorIdade);
+        System.out.println("Menor idade no indice: "+indiceMenor+" é de "+menorIdade);
         
           
 }
