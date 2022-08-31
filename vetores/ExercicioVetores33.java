@@ -1,4 +1,4 @@
-package com.mycompany.exerciciovetores33;
+package vetores;
 
 import java.util.Scanner;
 
