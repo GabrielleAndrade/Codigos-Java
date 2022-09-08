@@ -12,7 +12,7 @@ public class ExercicioVetores39 {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int[] a = new int[5];
+        int[] a = new int[10];
         int[] b = new int[a.length];
         int[] c = new int[a.length];
         int contadorc=0;
